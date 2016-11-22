@@ -6,5 +6,5 @@ complete2 <- function(directory, id) {
     s[i] <- sum(complete.cases(data))
   } 
   dat <- data.frame(cbind(id,nobs=s))   
-  return(dat)
+  dat
 }
